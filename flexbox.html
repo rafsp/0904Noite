@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Flexbox</title>
+    <style>
+        /* Estilos para a classe container */
+        .container {
+            display: flex; /* Usando Flexbox para o layout */
+            justify-content: space-between; /* Distribui os itens uniformemente */
+            align-items: center; /* Alinha os itens verticalmente ao centro */
+            height: 200px; /* Altura do container */
+            background-color: lightblue; /* Cor de fundo do container */
+        }
+
+        /* Estilos para os itens dentro do container */
+        .item {
+            width: 100px; /* Largura dos itens */
+            height: 100px; /* Altura dos itens */
+            background-color: pink; /* Cor de fundo dos itens */
+            margin: 10px; /* Margem entre os itens */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Container Flexbox -->
+<div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+</div>
+
+</body>
+</html>
